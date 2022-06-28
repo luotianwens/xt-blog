@@ -1,0 +1,12 @@
+{
+  "name": "xt-blog",
+  "version": "1.0.0",
+  "description": "小天的博客",
+  "main": "./docs/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["vue", "node", "blog", "react", "webpack"],
+  "author": "xiaotian",
+  "license": "ISC"
+}

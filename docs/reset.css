@@ -1,0 +1,15 @@
+.sidebar-nav > ul > li a.section-link,
+.app-nav a {
+  font-weight: bold;
+  font-size: 18px;
+  /* color: red !important; */
+}
+
+.sidebar-nav  li a.section-link {
+   text-decoration: none;
+}
+
+.app-name .app-name-link {
+  font-size: 22px;
+  font-weight: bold;
+}
