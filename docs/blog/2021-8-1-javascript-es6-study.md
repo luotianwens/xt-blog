@@ -1,10 +1,10 @@
 # javascript 基础知识点
 
-![javascript笔记](./img/course-content.png)
+![javascript笔记](/_media/course-content.png)
 
 ## 常用 ES6 特性
 
-`let, const class, extends, super, arrow functions, template string, destructuring, default and import, rest arguments`
+    let, const class, extends, super, arrow functions, template string, destructuring, default and import, rest arguments
 
 ## 数组
 

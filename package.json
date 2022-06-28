@@ -6,7 +6,17 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["vue", "node", "blog", "react", "webpack"],
+  "keywords": [
+    "vue",
+    "node",
+    "blog",
+    "react",
+    "webpack"
+  ],
   "author": "xiaotian",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "file-save": "^0.2.0",
+    "uppercamelcase": "^3.0.0"
+  }
 }
