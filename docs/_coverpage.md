@@ -2,18 +2,18 @@
  * @Author: xiaotian
  * @Date: 2022-06-23 12:18:20
  * @LastEditors: xiaotian
- * @LastEditTime: 2022-06-27 16:56:37
+ * @LastEditTime: 2022-06-28 13:50:17
  * @Description: 
 -->
 ![logo](_media/icon.svg)
 
-# docsify <small>3.5</small>
+# 小天菜鸡 <small>🚹</small>
 
-> 一个神奇的文档网站生成器。
+> 一个初级前端菜鸡的成长之路
 
-- 简单、轻便 (压缩后 ~21kB)
-- 无需生成 html 文件
-- 众多主题
+- 😊爱听音乐
+- 😁爱玩游戏
+- 😎喜欢钻研
 
-[GitHub](https://github.com/docsifyjs/docsify/)
-[Get Started](blog/)
+[GitHub](https://github.com/luotianwens)
+[Home](blog/)
