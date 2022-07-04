@@ -2,7 +2,7 @@
  * @Author: xiaotian
  * @Date: 2022-06-28 14:47:07
  * @LastEditors: xiaotian
- * @LastEditTime: 2022-06-28 15:47:15
+ * @LastEditTime: 2022-07-04 10:32:36
  * @Description: 
  */
 
@@ -18,7 +18,7 @@ if (!process.argv[2]) {
   console.error('文件名必填');
   process.exit(1)
 }
-const dateStr = `${new Date().getFullYear()}-${new Date().getMonth()}-${new Date().getDate()}`
+const dateStr = `${new Date().getFullYear()}-${new Date().getMonth() + 1}-${new Date().getDate()}`
 const fileSave = require('file-save')
 const path = require('path')
 const fs = require('fs')
