@@ -1,0 +1,50 @@
+Arguments: 
+  D:\nodejs\node.exe D:\nodejs\node_modules\yarn\bin\yarn.js
+
+PATH: 
+  C:\Users\tianwen_luo\AppData\Local\oh-my-posh;C:\Users\tianwen_luo\AppData\Local\oh-my-posh;C:\Program Files\WindowsApps\Microsoft.PowerShell_7.3.4.0_x64__8wekyb3d8bbwe;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\application\Bandizip\;D:\application\Git\cmd;C:\ProgramData\chocolatey\bin;D:\application\nvm;D:\nodejs;D:\application\wechat Program\dll;C:\Users\tianwen_luo\scoop\apps\gcc\current\bin;C:\Users\tianwen_luo\scoop\shims;C:\Users\tianwen_luo\AppData\Local\Microsoft\WindowsApps;D:\application\Microsoft VS Code\bin;D:\application\nvm;D:\nodejs;C:\Users\tianwen_luo\AppData\Local\JetBrains\Toolbox\scripts
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  12.15.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND npm.yzjop.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:60:26)
+
+npm manifest: 
+  {
+    "name": "xt-blog",
+    "version": "1.0.0",
+    "description": "小天的博客",
+    "main": "./docs/index.html",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "new": "node bin/new.js"
+    },
+  
+    "keywords": [
+      "vue",
+      "node",
+      "blog",
+      "react",
+      "webpack"
+    ],
+    "author": "xiaotian",
+    "license": "ISC",
+    "devDependencies": {
+      "file-save": "^0.2.0",
+      "uppercamelcase": "^3.0.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
