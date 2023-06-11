@@ -2,7 +2,7 @@
  * @Author: xiaotian
  * @Date: 2022-06-23 11:51:23
  * @LastEditors: xiaotian
- * @LastEditTime: 2022-06-28 15:42:19
+ * @LastEditTime: 2023-06-11 23:53:55
  * @Description: 
 -->
 
@@ -24,17 +24,20 @@
     window.$docsify = {
       name: '小天菜鸡',
       repo: 'https://github.com/luotianwens/xt-blog',
+      //开启导航栏
       loadNavbar: true,
       loadSidebar: true,
+      //开启目录
       subMaxLevel: 2,
       search: {
-        paths: ['/', '/blog'], // or 'auto'
+        paths: ['/', '/vue'], // or 'auto'
         placeholder: '请输入',
-        noData: '没有结果'
+        noData: '没有结果',
+        depth: 2
       },
-      alias: {
-         '/.*/_sidebar.md': '/_sidebar.md'
-      },
+      // alias: {
+      //    '/.*/_sidebar.md': '/_sidebar.md'
+      // },
       coverpage: true,
       onlyCover: true,
     }

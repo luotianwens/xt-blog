@@ -25,4 +25,75 @@
 
 .sidebar ul li.active > a {
   font-weight: normal;
-} 
+}
+
+/* vue页面 */
+body[data-page="vue/index.md"] .content {
+  text-align: center;
+  padding-top: 100px;
+}
+
+body[data-page="vue/index.md"]  #渐进式 span,
+body[data-page="vue/index.md"]  #javascript-框架 span{
+  background: -webkit-linear-gradient(315deg,#42d392 25%,#647eff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 20px;
+  display: inline-block;
+  font-size: 40px;
+}
+
+body[data-page="vue/index.md"] [rel="noopener"] {
+    color: white;
+    font-weight: normal;
+
+    display: inline-block;
+    margin-right: 10px;
+    background-color: #42b883;
+    padding: 10px 16px;
+    border-radius: 12px;
+    
+}
+
+body[data-page="vue/index.md"] blockquote {
+  border: none
+}
+
+body[data-page="vue/index.md"] [rel="noopener"]:last-child {
+  background: none;
+  border: 1px solid #42b883;
+  color: #42b883;
+}
+
+/* react */
+body[data-page="react/index.md"] .content {
+  text-align: center;
+  padding-top: 100px;
+}
+
+body[data-page="react/index.md"] img[alt="react"] {
+  width: 100px;
+}
+
+body[data-page="react/index.md"] [rel="noopener"] {
+    color: white;
+    font-weight: normal;
+
+    display: inline-block;
+    margin-right: 10px;
+    background-color: #75c6e0;
+    padding: 10px 16px;
+    border-radius: 12px;
+    
+}
+
+body[data-page="react/index.md"] [rel="noopener"]:last-child {
+  background: none;
+  border: 1px solid #75c6e0;
+  color: #75c6e0;
+}
+
+ody[data-page="react/index.md"] blockquote {
+  border: none
+}

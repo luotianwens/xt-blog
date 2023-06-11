@@ -2,7 +2,7 @@
  * @Author: xiaotian
  * @Date: 2022-06-23 12:18:20
  * @LastEditors: xiaotian
- * @LastEditTime: 2022-06-28 13:50:17
+ * @LastEditTime: 2023-06-11 23:57:53
  * @Description: 
 -->
 ![logo](_media/icon.svg)
@@ -16,4 +16,4 @@
 - 😎喜欢钻研
 
 [GitHub](https://github.com/luotianwens)
-[Home](blog/)
+[Home](/index)
